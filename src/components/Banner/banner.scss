@@ -1,0 +1,149 @@
+.banner-main {
+    background: linear-gradient(92.48deg, #7F5523 0%, #F5AC05 52.08%, #FEEA09 81.77%);
+    min-height: 100vh;
+
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // position: relative;
+    .centerz {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        // width: 50%;
+      }
+    .log-text {
+        img {
+            text-align: center;
+            width: 100%;
+        }
+     
+        p {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 110%;
+            /* identical to box height, or 44px */
+            text-align: center;
+            margin-top: 42.56px;
+            color: #FFFFFF
+        }
+    }
+    
+    .welcome {
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 50px;
+        font-weight: 700;
+
+    }
+
+    .textofmain {
+        text-align: center;
+        color: #fff;
+    }
+}
+.mainmargin{
+    margin-top: 180px;
+    padding: 0px 48px;
+}
+
+.m-auto {
+    margin: 150px 0 !important;
+}
+
+.banner-end {
+    background: linear-gradient(92.48deg, #7F5523 0%, #F5AC05 52.08%, #FEEA09 81.77%);
+    min-height: 80vh;
+}
+
+.imgof {
+    margin: 18px 0;
+}
+
+.textfooter {
+    float: right;
+    margin: 40px 0;
+}
+.text-header {
+    margin: 100px 0;
+}
+
+.welcomesecond {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 230px 0 0 0;
+}
+
+.btn-download {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 537px;
+    height: 88px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    background: rgba(255, 255, 255, 0.45);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+
+
+}
+
+.mainheading{
+    text-transform: uppercase;
+}
+.submitbtn{
+    width: 100%;
+    color: #fff;
+    border: 1px solid blue;
+    background-color: blue;
+    margin: 30px 0;
+    padding: 10px;
+}
+.welback{
+    margin-top: 15px 0;
+    color: blue;
+}
+.mainwel{
+    font-size: 50px;
+    font-weight: 500;
+
+}
+.mainsex{
+    font-size: 42px;
+}
+
+.licss{
+    display: inline;
+    // border: 1px solid grey;
+    margin: 0 10px;
+    button{
+        border: 20px;
+        width: 88px;
+        margin: 19px 0;
+        border-radius: 30px;
+        background-color: #9e9b9b;
+    }
+}
+.img-fluids{
+width: 180px;
+}
+@media (max-width:720px) {
+    .banner-main {
+        background-size: cover !important;
+    }
+    .m-auto {
+        margin: 20px 0 !important; 
+    }
+}
