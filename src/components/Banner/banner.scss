@@ -39,6 +39,7 @@
     }
 
     .textofmain {
+        font-size: 14px;
         text-align: center;
         color: #fff;
     }
@@ -123,7 +124,9 @@
 .mainsex{
     font-size: 42px;
 }
+.ulcss{
 
+margin: 0 0;;
 .licss{
     display: inline;
     // border: 1px solid grey;
@@ -136,8 +139,10 @@
         background-color: #9e9b9b;
     }
 }
+}
 .img-fluids{
-width: 180px;
+width: 150px;
+margin: 0px 0 5px 0;
 }
 @media (max-width:720px) {
     .banner-main {

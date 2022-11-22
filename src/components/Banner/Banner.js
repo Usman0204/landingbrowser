@@ -30,11 +30,11 @@ function Banner() {
 
                             <h1 className='welcome'>Welcome to Oasis </h1>
 
-                            <pre className="textofmain">
+                            <p className="textofmain">
                                 Download Oasis, a web browser by brightter.com
                                 <br />
                                 3x faster than chrome with privacy protection from companies like Google and big tech.
-                            </pre>
+                            </p>
                             <div className='center'>
                                 <button className='btn btn-download'> <img src='brightter-assets/Download.svg' /> Download Oasis</button>
                             </div>
