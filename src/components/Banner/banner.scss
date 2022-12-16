@@ -52,7 +52,7 @@
 
 .m-auto {
     padding: 0px 30px;
-    margin: 50px 0 !important;
+    margin: 25px 0 !important;
 }
 
 .banner-end {
@@ -63,6 +63,7 @@
 .imgof {
     margin: 18px 0;
 }
+
 
 .textfooter {
     float: right;
@@ -155,7 +156,7 @@ margin: 0px 0 5px 0;
         background-size: cover !important;
     }
     .m-auto {
-        margin: 20px 0 !important; 
+        margin: 0px 0 !important; 
     }
     .positionof {
         position: relative;
@@ -165,4 +166,23 @@ margin: 0px 0 5px 0;
         width: 100%;
         height: auto;
       }
+      .ulcss .licss button {
+        border: 20px;
+        width: 88px;
+        margin: 1px 0;
+        border-radius: 30px;
+        background-color: #9e9b9b;
+    }
+    .mainmargin {
+        margin-top: 50px;
+        padding: 0px 48px;
+    }
+    .text-header {
+        margin: 50px 0;
+    }
+    .textfooter {
+    text-align: center;
+    float: none; 
+    margin: 40px 0;
+}
 }
