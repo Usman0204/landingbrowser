@@ -11,20 +11,22 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Landing from "./components/Landing";
-
+import Oasis from './components/oasis/oasis.js'
 function App() {
   return (
     <>
       <ToastContainer style={{ fontSize: 20 }} />
       <Router>
         <Switch>
-          <Route exact path="/home">
+          <Route exact path="/">
             <Landing />
           </Route>
           <Route exact path="/">
-            <Redirect to="/home" />
+            <Redirect to="/" />
           </Route>
-
+          <Route  path="/aosis">
+            <Oasis/>
+          </Route>
           <Redirect to={`/`}></Redirect>
         </Switch>
       </Router>
