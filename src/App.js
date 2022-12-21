@@ -12,6 +12,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Landing from "./components/Landing";
 import Oasis from './components/oasis/oasis.js'
+import Angel from "./components/angel/angel";
 function App() {
   return (
     <>
@@ -24,8 +25,11 @@ function App() {
           <Route exact path="/">
             <Redirect to="/" />
           </Route>
-          <Route  path="/aosis">
+          <Route  path="/oasis">
             <Oasis/>
+          </Route>
+          <Route  path="/angel">
+            <Angel/>
           </Route>
           <Redirect to={`/`}></Redirect>
         </Switch>

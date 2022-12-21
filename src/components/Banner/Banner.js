@@ -9,7 +9,7 @@ function Banner() {
         <section>
             <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                 <a href='/aosis'><img src="brightter-assets/brighter-logo.svg" className='img-fluids' /></a>  
+                 <a href='/'><img src="brightter-assets/brighter-logo.svg" className='img-fluids' /></a>  
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -18,13 +18,13 @@ function Banner() {
                         <ul className='navbar-nav me-auto mb-2 mb-lg-0 ulcss'>
                             <li className='nav-item licss'></li>
                             <li className='nav-item licss'><button>Newsfeed</button></li>
-                            <li className='nav-item licss'><button>Oasis</button></li>
+                            <li className='nav-item licss'><a href='/oasis'> <button>Oasis</button></a></li>
                             <li className='nav-item licss'><button>watch</button></li>
                             <li className='nav-item licss'><button>play</button></li>
                             <li className='nav-item licss'><button>work</button></li>
                             <li className='nav-item licss'><button>shop</button></li>
                             <li className='nav-item licss'><button>stories</button></li>
-                            <li className='nav-item licss'><button>$angel</button></li>
+                            <li className='nav-item licss'><a href="/angel"><button>$angel</button></a></li>
                         </ul>
 
                     </div>

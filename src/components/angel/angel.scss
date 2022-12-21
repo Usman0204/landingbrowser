@@ -1,0 +1,129 @@
+.new {
+    float: right;
+    padding: 17px 30px;
+
+    a {
+        font-size: 20px !important;
+        font-weight: 700;
+    }
+}
+
+ul.navbar-nav.me-auto.mb-2.mb-lg-0.ulcss {
+
+    margin: auto;
+}
+
+.mainback {
+    background-image: url('../../Assets/angel-coin/assets/header-background.png');
+
+}
+
+.textmain {
+    margin-top: 250px;
+    text-align: left;
+    font-size: 48px;
+    font-weight: 700;
+    padding: 30px;
+}
+
+.textinner {
+    font-size: 16px;
+    text-align: left;
+    padding: 30px;
+}
+
+.buynow {
+    text-align: center;
+    height: 50px;
+    background-color: #04C6CD;
+    color: #fff;
+    margin: auto;
+    width: 100%;
+    border: 1px solid #04C6CD;
+}
+
+.button-container-div {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+   
+}
+.padding{
+    padding: 0px 70px;
+}
+.innerheight{
+    height: auto;
+    width: 75%;
+    border: 1px solid #04C6CD;
+    border-radius: 20px;
+    margin: 0 10px 0px 101px;
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .innertext{
+    text-align: center;
+  }
+//   .mainroadmap{
+//     background-image: url('../../Assets/angel-coin/assets/roadmap.png');
+//   }
+.mainpadding{
+margin: 200px 0;
+}
+.roadmap{
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0;
+}
+p {
+    padding: 10px 20px;
+}
+.ulicons{
+    display: inline-block;
+}
+li.icons {
+    float: right !important;
+    padding: 0 10px;
+    display: inline-block;
+}
+.paading{
+    margin: 0 300px ;
+}
+.img{
+    width: 100%;
+}
+@media (max-width:720px) {
+    .paading {
+        margin: 0 0px; 
+    } 
+    li.icons {
+        float: none !important; 
+        padding: 10px 30px;
+        display: inline-block;
+    }
+    .textmain {
+         margin-top: 10px; 
+        text-align: left;
+        font-size: 48px;
+        font-weight: 700;
+        padding: 30px;
+    }
+    .innerheight {
+        height: auto;
+        width: 75%;
+        border: 1px solid #04C6CD;
+        border-radius: 20px;
+        margin: 0px 10px 20px 66px;
+        
+    }
+    .mainpadding {
+        margin: 60px 0;
+    }
+    .imgs{
+        width: 100%;
+    }
+}

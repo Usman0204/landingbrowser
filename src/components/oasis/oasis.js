@@ -24,7 +24,7 @@ function Oasis() {
                             <li className='nav-item licss'><button>work</button></li>
                             <li className='nav-item licss'><button>shop</button></li>
                             <li className='nav-item licss'><button>stories</button></li>
-                            <li className='nav-item licss'><button>$angel</button></li>
+                            <li className='nav-item licss'><a href="/angel"><button>$angel</button></a></li>
                         </ul>
 
                     </div>
