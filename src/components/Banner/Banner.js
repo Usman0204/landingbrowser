@@ -34,7 +34,7 @@ function Banner() {
 
             <div className='container-fluid'>
                 <div className="row">
-                    <div className='col-lg-7 col-md-7 col-sm-7 banner-main'>
+                    <div className='col-lg-6 col-md-6 col-sm-6 banner-main'>
 
                         <div className='mainmargin'>
 
@@ -51,12 +51,12 @@ function Banner() {
                                 <br />
                                 3x faster than chrome with privacy protection from companies like Google and big tech.
                             </p>
-                            <div className='center'>
+                            <div className='centerss'>
                                 <button className='btn btn-download'> <img src='brightter-assets/Download.svg' /> Download Oasis</button>
                             </div>
                         </div>
                     </div>
-                    <div className='col-lg-5 col-md-5 col-sm-5'>
+                    <div className='col-lg-5 col-md-5 col-sm-5 '>
                         <div className='mainmargin positionof'>
                             <h2 className='mainwel'>Welcome</h2>
                             <h3 className='mainsex'>to<strong> brightter</strong> </h3>
@@ -168,7 +168,7 @@ function Banner() {
                         <div className="row">
                             <div className='col-xl-12 col-lg-12 m-auto'>
                                 <h1 className='welcomesecond'>Download Oasis.</h1>
-                                <div className='center'>
+                                <div className='centerss'>
                                     <button className='btn btn-download'><img src='brightter-assets/Download.svg' /> Download Oasis</button>
                                 </div>
 
